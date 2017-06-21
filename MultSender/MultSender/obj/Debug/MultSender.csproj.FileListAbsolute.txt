@@ -1,0 +1,14 @@
+c:\users\researchsquad\documents\visual studio 2017\Projects\MultSender\MultSender\obj\Debug\MultSender.csprojResolveAssemblyReference.cache
+c:\users\researchsquad\documents\visual studio 2017\Projects\MultSender\MultSender\obj\Debug\MainWindow.g.cs
+c:\users\researchsquad\documents\visual studio 2017\Projects\MultSender\MultSender\obj\Debug\App.g.cs
+c:\users\researchsquad\documents\visual studio 2017\Projects\MultSender\MultSender\obj\Debug\MultSender_MarkupCompile.cache
+c:\users\researchsquad\documents\visual studio 2017\Projects\MultSender\MultSender\obj\Debug\MultSender_MarkupCompile.lref
+c:\users\researchsquad\documents\visual studio 2017\Projects\MultSender\MultSender\bin\Debug\MultSender.exe.config
+c:\users\researchsquad\documents\visual studio 2017\Projects\MultSender\MultSender\bin\Debug\MultSender.exe
+c:\users\researchsquad\documents\visual studio 2017\Projects\MultSender\MultSender\bin\Debug\MultSender.pdb
+c:\users\researchsquad\documents\visual studio 2017\Projects\MultSender\MultSender\obj\Debug\MainWindow.baml
+c:\users\researchsquad\documents\visual studio 2017\Projects\MultSender\MultSender\obj\Debug\MultSender.g.resources
+c:\users\researchsquad\documents\visual studio 2017\Projects\MultSender\MultSender\obj\Debug\MultSender.Properties.Resources.resources
+c:\users\researchsquad\documents\visual studio 2017\Projects\MultSender\MultSender\obj\Debug\MultSender.csproj.GenerateResource.Cache
+c:\users\researchsquad\documents\visual studio 2017\Projects\MultSender\MultSender\obj\Debug\MultSender.exe
+c:\users\researchsquad\documents\visual studio 2017\Projects\MultSender\MultSender\obj\Debug\MultSender.pdb
