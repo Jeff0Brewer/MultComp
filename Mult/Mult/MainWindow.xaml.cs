@@ -46,11 +46,8 @@ namespace Mult
         static int numConnections = 0;
 
 
-        Socket sListener;
-        SocketPermission permission;
-        IPHostEntry ipHost;
-        IPAddress ipAddr;
-        IPEndPoint ipEndPoint;
+        int comp1 = 0;
+        int comp2 = 0;
 
         public MainWindow()
         {
@@ -97,7 +94,11 @@ namespace Mult
             }
             if (received[0] != null)
             {
-                test.Text = received[0];
+                t1.Text = received[0];
+            }
+            if (received[1] != null)
+            {
+                t2.Text = received[1];
             }
         }
 
@@ -263,7 +264,8 @@ namespace Mult
                                 string s = content.Substring(x_start_ind + 3, x_end_ind - (x_start_ind + 3));
                                 //received_cards_arr = s.Split(',').Select(str => int.Parse(str)).ToArray(); ;
                                 // received = Convert.ToInt32(content.Substring(x_start_ind + 3, x_end_ind - (x_start_ind + 3)));
-                                received[0] = s;
+                                int ind = Convert.ToInt32(s.Substring(1, 1));
+                                received[ind] = s;
                             }
                             catch (FormatException)
                             {
