@@ -12,3 +12,17 @@ c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\obj\Debug\Mult.P
 c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\obj\Debug\Mult.csproj.GenerateResource.Cache
 c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\obj\Debug\Mult.exe
 c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\obj\Debug\Mult.pdb
+C:\Users\master\Documents\GitHub\MultComp\Mult\Mult\bin\Debug\Mult.exe.config
+C:\Users\master\Documents\GitHub\MultComp\Mult\Mult\obj\Debug\Mult.exe
+C:\Users\master\Documents\GitHub\MultComp\Mult\Mult\obj\Debug\Mult.pdb
+C:\Users\master\Documents\GitHub\MultComp\Mult\Mult\bin\Debug\Mult.exe
+C:\Users\master\Documents\GitHub\MultComp\Mult\Mult\bin\Debug\Mult.pdb
+C:\Users\master\Documents\GitHub\MultComp\Mult\Mult\obj\Debug\Mult.csprojResolveAssemblyReference.cache
+C:\Users\master\Documents\GitHub\MultComp\Mult\Mult\obj\Debug\MainWindow.g.cs
+C:\Users\master\Documents\GitHub\MultComp\Mult\Mult\obj\Debug\App.g.cs
+C:\Users\master\Documents\GitHub\MultComp\Mult\Mult\obj\Debug\Mult_MarkupCompile.cache
+C:\Users\master\Documents\GitHub\MultComp\Mult\Mult\obj\Debug\Mult_MarkupCompile.lref
+C:\Users\master\Documents\GitHub\MultComp\Mult\Mult\obj\Debug\MainWindow.baml
+C:\Users\master\Documents\GitHub\MultComp\Mult\Mult\obj\Debug\Mult.g.resources
+C:\Users\master\Documents\GitHub\MultComp\Mult\Mult\obj\Debug\Mult.Properties.Resources.resources
+C:\Users\master\Documents\GitHub\MultComp\Mult\Mult\obj\Debug\Mult.csproj.GenerateResource.Cache

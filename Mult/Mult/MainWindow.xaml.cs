@@ -27,8 +27,8 @@ namespace Mult
     /// </summary>
     public partial class MainWindow : Window
     {
-        private static string defaultSenderIP = "169.254.41.115"; //169.254.41.115 A, 169.254.50.139 B
-        private bool SenderOn = true;
+        private static string defaultSenderIP = "10.105.139.206"; //169.254.41.115 A, 169.254.50.139 B
+        private bool SenderOn = false;
         private bool ReceiverOn = true;
         private static int ReceiverPort = 11000, SenderPort = 11000;//ReceiverPort is the port used by Receiver, SenderPort is the port used by Sender
         private bool communication_started_Receiver = false;//indicates whether the Receiver is ready to receive message(coordinates). Used for thread control
@@ -46,17 +46,15 @@ namespace Mult
         static int numConnections = 0;
 
 
-        //Socket sListener;
-        //SocketPermission permission;
-        //IPHostEntry ipHost;
-        //IPAddress ipAddr;
-        //IPEndPoint ipEndPoint;
+        Socket sListener;
+        SocketPermission permission;
+        IPHostEntry ipHost;
+        IPAddress ipAddr;
+        IPEndPoint ipEndPoint;
 
         public MainWindow()
         {
-            DataContext = this;
             InitializeComponent();
-
             if (ReceiverOn)
             {
                 IPHostEntry ipHostInfo = Dns.GetHostByName(Dns.GetHostName());
@@ -102,22 +100,6 @@ namespace Mult
                 test.Text = received[0];
             }
         }
-        //    permission = new SocketPermission(NetworkAccess.Accept, TransportType.Tcp, "", SocketPermission.AllPorts);
-        //    ipHost = Dns.GetHostEntry("");
-        //    ipAddr = ipHost.AddressList[0];
-        //    ipEndPoint = new IPEndPoint(ipAddr, 11000);
-        //    sListener = new Socket(ipAddr.AddressFamily,SocketType.Stream,ProtocolType.Tcp);
-        //    sListener.Bind(ipEndPoint);
-        //    sListener.Listen(3);
-
-        //    AsyncCallback aCallback = new AsyncCallback(AcceptCallback);
-        //}
-
-        //static void AcceptCallback(IAsyncResult ar) {
-        //    Socket listener = (Socket)ar.AsyncState;
-        //    Socket handler = listener.EndAccept(ar);
-
-        //}
 
         protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
         {
@@ -141,7 +123,6 @@ namespace Mult
 
         }
 
-        #region Sender/Receiver Methods
         public void tryCommunicateReceiver(String x)
         {
             IPHostEntry ipHostInfo = Dns.Resolve(Dns.GetHostName());
@@ -243,12 +224,12 @@ namespace Mult
                 state.workSocket = handler;
                 handler.BeginReceive(state.buffer, 0, StateObject.BufferSize, 0,
                     new AsyncCallback(ReadCallback), state);
+                numConnections++;
             }
             public static void ReadCallback(IAsyncResult ar)
             {
                 String content = String.Empty;
                 int connNum = numConnections;
-                numConnections++;
                 // Retrieve the state object and the handler socket
                 // from the asynchronous state object.
                 StateObject state = (StateObject)ar.AsyncState;
@@ -282,7 +263,7 @@ namespace Mult
                                 string s = content.Substring(x_start_ind + 3, x_end_ind - (x_start_ind + 3));
                                 //received_cards_arr = s.Split(',').Select(str => int.Parse(str)).ToArray(); ;
                                 // received = Convert.ToInt32(content.Substring(x_start_ind + 3, x_end_ind - (x_start_ind + 3)));
-                                received[connNum] = s;
+                                received[0] = s;
                             }
                             catch (FormatException)
                             {
@@ -414,6 +395,5 @@ namespace Mult
 
 
         }
-        #endregion
     }
 }
