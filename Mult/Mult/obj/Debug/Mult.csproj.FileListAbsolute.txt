@@ -1,0 +1,14 @@
+c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\bin\Debug\Mult.exe.config
+c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\bin\Debug\Mult.exe
+c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\bin\Debug\Mult.pdb
+c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\obj\Debug\Mult.csprojResolveAssemblyReference.cache
+c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\obj\Debug\MainWindow.g.cs
+c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\obj\Debug\App.g.cs
+c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\obj\Debug\Mult_MarkupCompile.cache
+c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\obj\Debug\Mult_MarkupCompile.lref
+c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\obj\Debug\MainWindow.baml
+c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\obj\Debug\Mult.g.resources
+c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\obj\Debug\Mult.Properties.Resources.resources
+c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\obj\Debug\Mult.csproj.GenerateResource.Cache
+c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\obj\Debug\Mult.exe
+c:\users\master\documents\visual studio 2015\Projects\Mult\Mult\obj\Debug\Mult.pdb
